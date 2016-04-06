@@ -45,7 +45,7 @@ public class Example8_3 extends Applet implements Runnable{
 				blueSeta -=3;
 				if(blueSeta<=-360)blueSeta = 0;
 				x = (int)(80.0*Math.cos(3.1415926/180.0*blueSeta));
-				y = (int)(80.0*Math.cos(3.1415926/180.0*blueSeta));
+				y = (int)(80.0*Math.sin(3.1415926/180.0*blueSeta));
 				bluePen.setColor(Color.blue);
 				bluePen.fillOval(150+x, 100+y, 10, 10);
 				try{
